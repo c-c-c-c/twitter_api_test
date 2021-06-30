@@ -1,0 +1,50 @@
+2021-06-29 10:13:04,467 - root - WARNING - MIN_DF:30
+2021-06-29 10:13:04,560 - root - WARNING - params:batch_size:4000
+2021-06-29 10:13:04,573 - root - WARNING - params:n_components:6
+2021-06-29 10:13:04,580 - root - WARNING - params:topic_word_prior:0.5
+2021-06-29 10:13:04,586 - root - WARNING - params:doc_topic_prior:0.6
+2021-06-29 10:13:04,593 - root - WARNING - params:max_iter:50
+2021-06-29 10:13:04,599 - root - WARNING - done n_iter:50
+2021-06-29 10:13:04,605 - root - WARNING - perplexity:1473.3087998258995
+2021-06-29 10:13:04,611 - root - WARNING - coherance:[0.782303155352527, 0.8004203871597341, 0.7878738947533526, 0.7938655366704481, 0.7724568614404057, 0.7869552486270903]
+2021-06-29 10:13:04,618 - root - WARNING - check all params:{'batch_size': 4000, 'doc_topic_prior': 0.6, 'evaluate_every': 1, 'learning_decay': 0.7, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 6, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.5, 'total_samples': 1000000.0, 'verbose': 1}
+2021-06-29 10:31:57,392 - root - WARNING - MIN_DF:30
+2021-06-29 10:31:57,499 - root - WARNING - params:batch_size:4000
+2021-06-29 10:31:57,512 - root - WARNING - params:n_components:6
+2021-06-29 10:31:57,522 - root - WARNING - params:topic_word_prior:0.5
+2021-06-29 10:31:57,530 - root - WARNING - params:doc_topic_prior:0.8
+2021-06-29 10:31:57,536 - root - WARNING - params:max_iter:50
+2021-06-29 10:31:57,542 - root - WARNING - done n_iter:50
+2021-06-29 10:31:57,548 - root - WARNING - perplexity:1479.127383075049
+2021-06-29 10:31:57,555 - root - WARNING - coherance:[0.7778396222522598, 0.8006489438075693, 0.7832892711412548, 0.7903611559542285, 0.7727491240647526, 0.7870710558521499]
+2021-06-29 10:31:57,561 - root - WARNING - check all params:{'batch_size': 4000, 'doc_topic_prior': 0.8, 'evaluate_every': 1, 'learning_decay': 0.7, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 6, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.5, 'total_samples': 1000000.0, 'verbose': 1}
+2021-06-29 10:55:34,763 - root - WARNING - MIN_DF:30
+2021-06-29 10:55:34,857 - root - WARNING - params:batch_size:4000
+2021-06-29 10:55:34,870 - root - WARNING - params:n_components:6
+2021-06-29 10:55:34,877 - root - WARNING - params:topic_word_prior:0.6
+2021-06-29 10:55:34,883 - root - WARNING - params:doc_topic_prior:0.05
+2021-06-29 10:55:34,889 - root - WARNING - params:max_iter:50
+2021-06-29 10:55:34,896 - root - WARNING - done n_iter:49
+2021-06-29 10:55:34,902 - root - WARNING - perplexity:1416.3992372153498
+2021-06-29 10:55:34,908 - root - WARNING - coherance:[0.7115264824185656, 0.8066253474517346, 0.7706684076899606, 0.798552905826363, 0.7365739503941817, 0.7500586871921329]
+2021-06-29 10:55:34,915 - root - WARNING - check all params:{'batch_size': 4000, 'doc_topic_prior': 0.05, 'evaluate_every': 1, 'learning_decay': 0.7, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 6, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.6, 'total_samples': 1000000.0, 'verbose': 1}
+2021-06-29 11:20:23,137 - root - WARNING - MIN_DF:30
+2021-06-29 11:20:23,259 - root - WARNING - params:batch_size:4000
+2021-06-29 11:20:23,271 - root - WARNING - params:n_components:6
+2021-06-29 11:20:23,280 - root - WARNING - params:topic_word_prior:0.6
+2021-06-29 11:20:23,287 - root - WARNING - params:doc_topic_prior:0.15
+2021-06-29 11:20:23,294 - root - WARNING - params:max_iter:50
+2021-06-29 11:20:23,300 - root - WARNING - done n_iter:50
+2021-06-29 11:20:23,306 - root - WARNING - perplexity:1428.3500081964191
+2021-06-29 11:20:23,313 - root - WARNING - coherance:[0.7530496466248238, 0.8125393187124835, 0.7863659876774743, 0.8056981979884024, 0.7545050350958349, 0.7855232688260274]
+2021-06-29 11:20:23,319 - root - WARNING - check all params:{'batch_size': 4000, 'doc_topic_prior': 0.15, 'evaluate_every': 1, 'learning_decay': 0.7, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 6, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.6, 'total_samples': 1000000.0, 'verbose': 1}
+2021-06-29 11:48:25,428 - root - WARNING - MIN_DF:30
+2021-06-29 11:48:25,574 - root - WARNING - params:batch_size:4000
+2021-06-29 11:48:25,587 - root - WARNING - params:n_components:6
+2021-06-29 11:48:25,597 - root - WARNING - params:topic_word_prior:0.6
+2021-06-29 11:48:25,603 - root - WARNING - params:doc_topic_prior:0.3
+2021-06-29 11:48:25,610 - root - WARNING - params:max_iter:50
+2021-06-29 11:48:25,616 - root - WARNING - done n_iter:50
+2021-06-29 11:48:25,623 - root - WARNING - perplexity:1485.1726016060302
+2021-06-29 11:48:25,629 - root - WARNING - coherance:[0.7725862026807502, 0.8114024752753763, 0.7801670938409612, 0.7671754689297989, 0.7720158113297833, 0.7924910752337888]
+2021-06-29 11:48:25,636 - root - WARNING - check all params:{'batch_size': 4000, 'doc_topic_prior': 0.3, 'evaluate_every': 1, 'learning_decay': 0.7, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 6, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.6, 'total_samples': 1000000.0, 'verbose': 1}
