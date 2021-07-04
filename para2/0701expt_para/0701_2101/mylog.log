@@ -918,3 +918,13 @@
 2021-07-04 06:52:56,450 - root - WARNING - perplexity:2521.93601782008
 2021-07-04 06:52:56,452 - root - WARNING - coherance:[nan, nan, 0.7568294255233114, 0.7427543399367118, 0.756147203452932, 0.6910131368267531, 0.7125383613051263, 0.7779091006087072, 0.6293340766063072, 0.7036310037253176, nan, 0.705795910806673, 0.7460730988247053, 0.6928257619193426, 0.740502306325078, 0.7547958401581646, 0.7116554577937475, nan, 0.7209259758484132, 0.7474160458677461, 0.7486282829315929, 0.7756789045591327, 0.7334324822715534, 0.7492817087995467]
 2021-07-04 06:52:56,455 - root - WARNING - check all params:{'batch_size': 3000, 'doc_topic_prior': 0.03, 'evaluate_every': 1, 'learning_decay': 1.3, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 24, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.03, 'total_samples': 1000000.0, 'verbose': 1}
+2021-07-04 07:41:39,789 - root - WARNING - MIN_DF:30
+2021-07-04 07:41:39,970 - root - WARNING - params:batch_size:3000
+2021-07-04 07:41:39,973 - root - WARNING - params:n_components:24
+2021-07-04 07:41:39,975 - root - WARNING - params:topic_word_prior:0.03
+2021-07-04 07:41:39,977 - root - WARNING - params:doc_topic_prior:0.05
+2021-07-04 07:41:39,979 - root - WARNING - params:max_iter:50
+2021-07-04 07:41:39,981 - root - WARNING - done n_iter:50
+2021-07-04 07:41:39,983 - root - WARNING - perplexity:2678.5250475869316
+2021-07-04 07:41:39,985 - root - WARNING - coherance:[0.7013231375616193, nan, 0.7415362711818974, 0.7429753338250012, 0.7149032352373129, 0.6730780736346477, 0.7067087636932845, 0.7491980582801532, 0.6170801638187383, 0.7178310006431463, 0.775056023456792, 0.6781913658619716, 0.7324801342258824, 0.6915121161538723, 0.7533751504725654, 0.7626906274076739, 0.7329500862970499, 0.7266876685370491, 0.7354029033693974, 0.7502396073247065, 0.7595254584869338, 0.7228854232778598, 0.6983472366090001, 0.7483018455292466]
+2021-07-04 07:41:39,987 - root - WARNING - check all params:{'batch_size': 3000, 'doc_topic_prior': 0.05, 'evaluate_every': 1, 'learning_decay': 1.3, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 24, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.03, 'total_samples': 1000000.0, 'verbose': 1}
