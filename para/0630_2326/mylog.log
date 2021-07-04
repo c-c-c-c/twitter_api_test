@@ -2118,3 +2118,13 @@
 2021-07-04 08:42:17,109 - root - WARNING - perplexity:1430.7549227935758
 2021-07-04 08:42:17,112 - root - WARNING - coherance:[0.7968136750946985, nan, 0.7700514324073142, 0.7763715811157081, 0.7771073621932253, 0.7571886479209468, 0.7714891041907215, 0.757468047899745, 0.58958144269155, 0.7780591060886587]
 2021-07-04 08:42:17,116 - root - WARNING - check all params:{'batch_size': 4000, 'doc_topic_prior': 0.8, 'evaluate_every': 1, 'learning_decay': 0.7, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 10, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.3, 'total_samples': 1000000.0, 'verbose': 1}
+2021-07-04 09:16:20,432 - root - WARNING - MIN_DF:30
+2021-07-04 09:16:20,515 - root - WARNING - params:batch_size:4000
+2021-07-04 09:16:20,520 - root - WARNING - params:n_components:10
+2021-07-04 09:16:20,525 - root - WARNING - params:topic_word_prior:0.4
+2021-07-04 09:16:20,529 - root - WARNING - params:doc_topic_prior:0.05
+2021-07-04 09:16:20,532 - root - WARNING - params:max_iter:50
+2021-07-04 09:16:20,535 - root - WARNING - done n_iter:50
+2021-07-04 09:16:20,538 - root - WARNING - perplexity:1390.7872756826948
+2021-07-04 09:16:20,542 - root - WARNING - coherance:[0.6955144297256538, 0.775836185802274, 0.7704490366064517, 0.7792167898016495, 0.7914602603872594, 0.7644414687522362, 0.7752702341694779, 0.774457852298848, 0.7124062674441034, 0.7719472689883528]
+2021-07-04 09:16:20,545 - root - WARNING - check all params:{'batch_size': 4000, 'doc_topic_prior': 0.05, 'evaluate_every': 1, 'learning_decay': 0.7, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 10, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.4, 'total_samples': 1000000.0, 'verbose': 1}
