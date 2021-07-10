@@ -1,0 +1,20 @@
+2021-07-04 14:26:25,685 - root - WARNING - MIN_DF:30
+2021-07-04 14:26:25,895 - root - WARNING - params:batch_size:4000
+2021-07-04 14:26:25,901 - root - WARNING - params:n_components:10
+2021-07-04 14:26:25,905 - root - WARNING - params:topic_word_prior:0.5
+2021-07-04 14:26:25,909 - root - WARNING - params:doc_topic_prior:0.3
+2021-07-04 14:26:25,913 - root - WARNING - params:max_iter:50
+2021-07-04 14:26:25,917 - root - WARNING - done n_iter:50
+2021-07-04 14:26:25,920 - root - WARNING - perplexity:1438.8720489045434
+2021-07-04 14:26:25,924 - root - WARNING - coherance:[0.8024365138024988, 0.7952134719008596, 0.7615127996153058, 0.7618631699806395, 0.7651235635865092, 0.7552306437992847, 0.779273949329873, 0.777894275654132, 0.6131341690291066, 0.759831349298861]
+2021-07-04 14:26:25,928 - root - WARNING - check all params:{'batch_size': 4000, 'doc_topic_prior': 0.3, 'evaluate_every': 1, 'learning_decay': 0.7, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 10, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.5, 'total_samples': 1000000.0, 'verbose': 1}
+2021-07-04 15:02:30,173 - root - WARNING - MIN_DF:30
+2021-07-04 15:02:30,349 - root - WARNING - params:batch_size:4000
+2021-07-04 15:02:30,355 - root - WARNING - params:n_components:10
+2021-07-04 15:02:30,365 - root - WARNING - params:topic_word_prior:0.5
+2021-07-04 15:02:30,369 - root - WARNING - params:doc_topic_prior:0.4
+2021-07-04 15:02:30,372 - root - WARNING - params:max_iter:50
+2021-07-04 15:02:30,376 - root - WARNING - done n_iter:50
+2021-07-04 15:02:30,379 - root - WARNING - perplexity:1448.4816879608263
+2021-07-04 15:02:30,382 - root - WARNING - coherance:[0.7988457870033426, 0.7930053057538909, 0.7591661649862321, 0.7709845851554151, 0.7738877767369858, 0.7417889389853759, 0.7712245218264482, 0.7909135548004985, 0.5744230133901878, 0.7741215243764465]
+2021-07-04 15:02:30,387 - root - WARNING - check all params:{'batch_size': 4000, 'doc_topic_prior': 0.4, 'evaluate_every': 1, 'learning_decay': 0.7, 'learning_method': 'online', 'learning_offset': 50, 'max_doc_update_iter': 100, 'max_iter': 50, 'mean_change_tol': 0.0001, 'n_components': 10, 'n_jobs': None, 'perp_tol': 0.1, 'random_state': 1, 'topic_word_prior': 0.5, 'total_samples': 1000000.0, 'verbose': 1}
