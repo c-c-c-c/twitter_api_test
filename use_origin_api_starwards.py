@@ -8,30 +8,32 @@ import pytz
 import time
 import pandas as pd
 
-# 設定
-query_params = {'query': '#鬼滅の刃無限列車編',
-                'tweet.fields': "created_at,author_id,public_metrics", # スペースをいれない
-                'max_results' : 500,
-                "start_time":start_time ,
-               "end_time": end_time,
-               }
 
-start_time_dt = make_local_dt(datetime(2020, 10, 16, 0, 0, 0) )
-search_url = "https://api.twitter.com/2/tweets/search/all"
 
 def main():
 
-    movie_name = str(start_time_dt.date())+"_"+"鬼滅の刃"
-
-    # 終了日
-    end_time_dt = start_time_dt + timedelta(days=88) # 2020年10月16日スタート
+    # 設定
+    start_time_dt = make_local_dt(datetime(2019, 12, 20, 0, 0, 0) )
+    end_time_dt = start_time_dt + timedelta(days=88) # 2019年12月20日開始
 
     start_time = dt2localiso(start_time_dt)
     end_time = dt2localiso(end_time_dt)
 
+    query_params = {'query': '#スカイウォーカーの夜明け',
+                    'tweet.fields': "created_at,author_id,public_metrics", # スペースをいれない
+                    'max_results' : 500,
+                    "start_time":start_time ,
+                    "end_time": end_time,
+                }
+    
+    movie_name = str(start_time_dt.date())+"_"+"スターウォーズ"
+
+    search_url = "https://api.twitter.com/2/tweets/search/all"
+    bearer_token = Bearer.BEARER
+
+
     # To set your environment variables in your terminal run the following line:
     # export 'BEARER_TOKEN'='<your_bearer_token>'
-    bearer_token = Bearer.BEARER
     
     json_response = None
     query_params.pop("until_id", None)
